@@ -1,0 +1,69 @@
+connecting to client at 'localhost'
+connecting to client port at '30000'
+
+database table cardinalities:
+warehouses = 2
+districts = 10
+customers = 3000
+items = 100000
+orders = 3000
+stock = 100000
+new-orders = 900
+
+transaction mix:
+new-order mix 0.45
+payment mix 0.43
+order-status mix 0.04
+delivery mix 0.04
+stock-level mix 0.04
+
+transaction thresholds:
+new-order threshold 0.45
+payment threshold 0.88
+order-status threshold 0.92
+delivery threshold 0.96
+stock-level threshold 1.00
+
+delivery keying time 0 s
+new_order keying time 0 s
+order-status keying time 0 s
+payment keying time 0 s
+stock-level keying time 0 s
+
+delivery thinking time 0 ms
+new_order thinking time 0 ms
+order-status thinking time 0 ms
+payment thinking time 0 ms
+stock-level thinking time 0 ms
+
+w_id range 1 to 2
+
+10 terminals per warehouse
+
+600 second steady state duration
+
+driver is starting to ramp up at time 1430777316
+driver will ramp up in  1 seconds
+will stop test at time 1430777917
+seed for 39087:fd0d7910 : 2823783280
+seed for 39087:fce39910 : 2846095880
+seed for 39087:fce19910 : 2846781919
+seed for 39087:fcdf9910 : 2844969173
+seed for 39087:fcdd9910 : 2844870645
+seed for 39087:fcdb9910 : 2844909396
+seed for 39087:fcd99910 : 2844808806
+seed for 39087:fcd79910 : 2844912740
+seed for 39087:fcd59910 : 2844814178
+seed for 39087:fcd39910 : 2844849713
+seed for 39087:fcd19910 : 2845012653
+seed for 39087:fccf9910 : 2844772937
+seed for 39087:fccd9910 : 2843885923
+seed for 39087:fccb9910 : 2844186253
+seed for 39087:fcc99910 : 2844077579
+seed for 39087:fcc79910 : 2844632792
+seed for 39087:fcc59910 : 2844537038
+seed for 39087:fcc39910 : 2844118844
+seed for 39087:fcc19910 : 2844021560
+seed for 39087:fcbf9910 : 2851921279
+terminals started...
+driver is exiting normally
